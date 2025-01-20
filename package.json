@@ -1,0 +1,34 @@
+{
+  "name": "dadjs",
+  "version": "0.1.0",
+  "description": "ssr-first reactive UI javascript library with async components",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdadda/dadjs.git"
+  },
+  "keywords": [
+    "reactive",
+    "UI",
+    "javascript",
+    "async",
+    "ssr"
+  ],
+  "author": "xdadda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xdadda/dadjs/issues"
+  },
+  "homepage": "https://github.com/xdadda/dadjs#readme",
+  "exports":{
+    ".":"./index.js",
+    "./server":"./server/index.js",
+    "./store":"./store/index.js",
+    "./router":"./router/index.js",
+    "./components":"./components/index.js"
+  }
+}
