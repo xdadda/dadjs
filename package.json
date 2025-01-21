@@ -1,5 +1,5 @@
 {
-  "name": "dadjs",
+  "name": "dad-js",
   "version": "0.1.0",
   "description": "ssr-first reactive UI javascript library with async components",
   "main": "index.js",
